@@ -83,14 +83,9 @@
 		D5EBDCD11B1669320059C582 /* TwitterCloneObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D5EBDCD61B1669320059C582 /* AppDelegate.h */,
-				D5EBDCD71B1669320059C582 /* AppDelegate.m */,
-				D5EBDCDC1B1669320059C582 /* ViewController.h */,
-				D5EBDCDD1B1669320059C582 /* ViewController.m */,
-				D5EBDCDF1B1669320059C582 /* Main.storyboard */,
-				D5EBDCE21B1669320059C582 /* Images.xcassets */,
-				D5EBDCE41B1669320059C582 /* LaunchScreen.xib */,
-				D5EBDCD91B1669320059C582 /* TwitterCloneObjC.xcdatamodeld */,
+				D5EBDCFD1B1770D70059C582 /* View Layer */,
+				D5EBDCFC1B1770D00059C582 /* Controller Layer */,
+				D5EBDCFB1B1770C00059C582 /* Model Layer */,
 				D5EBDCD21B1669320059C582 /* Supporting Files */,
 			);
 			path = TwitterCloneObjC;
@@ -99,8 +94,6 @@
 		D5EBDCD21B1669320059C582 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5EBDCD31B1669320059C582 /* Info.plist */,
-				D5EBDCD41B1669320059C582 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +113,37 @@
 				D5EBDCF01B1669320059C582 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5EBDCFB1B1770C00059C582 /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D5EBDCD91B1669320059C582 /* TwitterCloneObjC.xcdatamodeld */,
+				D5EBDCD31B1669320059C582 /* Info.plist */,
+				D5EBDCD41B1669320059C582 /* main.m */,
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		D5EBDCFC1B1770D00059C582 /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D5EBDCD61B1669320059C582 /* AppDelegate.h */,
+				D5EBDCD71B1669320059C582 /* AppDelegate.m */,
+				D5EBDCDC1B1669320059C582 /* ViewController.h */,
+				D5EBDCDD1B1669320059C582 /* ViewController.m */,
+			);
+			name = "Controller Layer";
+			sourceTree = "<group>";
+		};
+		D5EBDCFD1B1770D70059C582 /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				D5EBDCDF1B1669320059C582 /* Main.storyboard */,
+				D5EBDCE21B1669320059C582 /* Images.xcassets */,
+				D5EBDCE41B1669320059C582 /* LaunchScreen.xib */,
+			);
+			name = "View Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
