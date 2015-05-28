@@ -10,11 +10,16 @@
 		D5EBDCD51B1669320059C582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCD41B1669320059C582 /* main.m */; };
 		D5EBDCD81B1669320059C582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCD71B1669320059C582 /* AppDelegate.m */; };
 		D5EBDCDB1B1669320059C582 /* TwitterCloneObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCD91B1669320059C582 /* TwitterCloneObjC.xcdatamodeld */; };
-		D5EBDCDE1B1669320059C582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCDD1B1669320059C582 /* ViewController.m */; };
 		D5EBDCE11B1669320059C582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EBDCDF1B1669320059C582 /* Main.storyboard */; };
 		D5EBDCE31B1669320059C582 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EBDCE21B1669320059C582 /* Images.xcassets */; };
 		D5EBDCE61B1669320059C582 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EBDCE41B1669320059C582 /* LaunchScreen.xib */; };
 		D5EBDCF21B1669320059C582 /* TwitterCloneObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCF11B1669320059C582 /* TwitterCloneObjCTests.m */; };
+		D5EBDD001B1779390059C582 /* UserTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDCFF1B1779390059C582 /* UserTimelineViewController.m */; };
+		D5EBDD031B1779720059C582 /* HomeTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDD021B1779720059C582 /* HomeTimelineViewController.m */; };
+		D5EBDD061B1779B70059C582 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDD051B1779B70059C582 /* NetworkController.m */; };
+		D5EBDD091B177A290059C582 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDD081B177A290059C582 /* Tweet.m */; };
+		D5EBDD0C1B177A5B0059C582 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDD0B1B177A5B0059C582 /* User.m */; };
+		D5EBDD0F1B177A9E0059C582 /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EBDD0E1B177A9E0059C582 /* TweetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,24 @@
 		D5EBDCD61B1669320059C582 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5EBDCD71B1669320059C582 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5EBDCDA1B1669320059C582 /* TwitterCloneObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TwitterCloneObjC.xcdatamodel; sourceTree = "<group>"; };
-		D5EBDCDC1B1669320059C582 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5EBDCDD1B1669320059C582 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5EBDCE01B1669320059C582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5EBDCE21B1669320059C582 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D5EBDCE51B1669320059C582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D5EBDCEB1B1669320059C582 /* TwitterCloneObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterCloneObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EBDCF01B1669320059C582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5EBDCF11B1669320059C582 /* TwitterCloneObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterCloneObjCTests.m; sourceTree = "<group>"; };
+		D5EBDCFE1B1779390059C582 /* UserTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTimelineViewController.h; sourceTree = "<group>"; };
+		D5EBDCFF1B1779390059C582 /* UserTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTimelineViewController.m; sourceTree = "<group>"; };
+		D5EBDD011B1779720059C582 /* HomeTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTimelineViewController.h; sourceTree = "<group>"; };
+		D5EBDD021B1779720059C582 /* HomeTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTimelineViewController.m; sourceTree = "<group>"; };
+		D5EBDD041B1779B70059C582 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		D5EBDD051B1779B70059C582 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		D5EBDD071B177A290059C582 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		D5EBDD081B177A290059C582 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		D5EBDD0A1B177A5B0059C582 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D5EBDD0B1B177A5B0059C582 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D5EBDD0D1B177A9E0059C582 /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		D5EBDD0E1B177A9E0059C582 /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +136,10 @@
 				D5EBDCD91B1669320059C582 /* TwitterCloneObjC.xcdatamodeld */,
 				D5EBDCD31B1669320059C582 /* Info.plist */,
 				D5EBDCD41B1669320059C582 /* main.m */,
+				D5EBDD071B177A290059C582 /* Tweet.h */,
+				D5EBDD081B177A290059C582 /* Tweet.m */,
+				D5EBDD0A1B177A5B0059C582 /* User.h */,
+				D5EBDD0B1B177A5B0059C582 /* User.m */,
 			);
 			name = "Model Layer";
 			sourceTree = "<group>";
@@ -130,8 +149,14 @@
 			children = (
 				D5EBDCD61B1669320059C582 /* AppDelegate.h */,
 				D5EBDCD71B1669320059C582 /* AppDelegate.m */,
-				D5EBDCDC1B1669320059C582 /* ViewController.h */,
-				D5EBDCDD1B1669320059C582 /* ViewController.m */,
+				D5EBDCFE1B1779390059C582 /* UserTimelineViewController.h */,
+				D5EBDCFF1B1779390059C582 /* UserTimelineViewController.m */,
+				D5EBDD011B1779720059C582 /* HomeTimelineViewController.h */,
+				D5EBDD021B1779720059C582 /* HomeTimelineViewController.m */,
+				D5EBDD041B1779B70059C582 /* NetworkController.h */,
+				D5EBDD051B1779B70059C582 /* NetworkController.m */,
+				D5EBDD0D1B177A9E0059C582 /* TweetViewController.h */,
+				D5EBDD0E1B177A9E0059C582 /* TweetViewController.m */,
 			);
 			name = "Controller Layer";
 			sourceTree = "<group>";
@@ -246,9 +271,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EBDD0C1B177A5B0059C582 /* User.m in Sources */,
+				D5EBDD001B1779390059C582 /* UserTimelineViewController.m in Sources */,
 				D5EBDCDB1B1669320059C582 /* TwitterCloneObjC.xcdatamodeld in Sources */,
+				D5EBDD0F1B177A9E0059C582 /* TweetViewController.m in Sources */,
+				D5EBDD031B1779720059C582 /* HomeTimelineViewController.m in Sources */,
+				D5EBDD091B177A290059C582 /* Tweet.m in Sources */,
 				D5EBDCD81B1669320059C582 /* AppDelegate.m in Sources */,
-				D5EBDCDE1B1669320059C582 /* ViewController.m in Sources */,
+				D5EBDD061B1779B70059C582 /* NetworkController.m in Sources */,
 				D5EBDCD51B1669320059C582 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
